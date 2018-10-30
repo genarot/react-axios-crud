@@ -10,7 +10,7 @@ class Posts extends React.Component {
     // <div className="row">
         <div className="col-12 col-mb-8">
           <h2 className="text-center">Posts</h2>
-          <Listado posts={this.props.posts}/>
+          <Listado borrarPost={this.props.borrarPost} posts={this.props.posts}/>
         </div>
     // </div>
   )
